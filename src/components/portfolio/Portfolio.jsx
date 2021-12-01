@@ -6,7 +6,7 @@ import {
   htmlAndCSSPortfolio,
   vanillaJavascriptPortfolio,
   frontEndPortfolio,
-  laravelPortfolio,
+  mobilePortfolio,
   pythonPortfolio,
   nodeJSPortfolio,
 } from '../../data'
@@ -33,8 +33,8 @@ export default function Portfolio() {
       name: 'Front End(React,Angular & Vue)',
     },
     {
-      id: 'laravel',
-      name: 'Laravel',
+      id: 'mobile',
+      name: 'Mobile',
     },
     {
       id: 'python',
@@ -60,8 +60,8 @@ export default function Portfolio() {
       case 'frontend':
         setData(frontEndPortfolio)
         break
-      case 'laravel':
-        setData(laravelPortfolio)
+      case 'mobile':
+        setData(mobilePortfolio)
         break
       case 'python':
         setData(pythonPortfolio)

@@ -6,11 +6,6 @@ export const featuredPortfolio = [
   },
 
   {
-    id: 2,
-    title: 'Simple Android App',
-    img: 'assets/portfolio/android.png',
-  },
-  {
     id: 3,
     title: 'PluralSite Clone',
     img: 'assets/portfolio/pluralsight.png',
@@ -30,27 +25,6 @@ export const featuredPortfolio = [
     id: 6,
     title: 'Boostrap UI Design',
     img: 'assets/portfolio/NunoTwo.png',
-  },
-  {
-    id: 7,
-    title: 'Flutter Word App',
-    img: 'assets/portfolio/flutterwordpairfour.png',
-  },
-  {
-    id: 8,
-    title: 'React Js Chat App',
-    img: 'assets/portfolio/react_chat_app_one.png',
-  },
-
-  {
-    id: 9,
-    title: 'Flutter one',
-    img: 'assets/portfolio/flutter_profile_one.png',
-  },
-  {
-    id: 10,
-    title: 'Flutter Two',
-    img: 'assets/portfolio/flutter_profile_two.png',
   },
 ]
 
@@ -96,13 +70,33 @@ export const frontEndPortfolio = [
     title: 'Mern Stack App',
     img: 'assets/portfolio/Mernstack application.png',
   },
+  {
+    id: 3,
+    title: 'React Js Chat App',
+    img: 'assets/portfolio/react_chat_app_one.png',
+  },
 ]
 
-export const laravelPortfolio = [
+export const mobilePortfolio = [
   {
     id: 1,
-    title: 'Coming Soon',
-    img: 'assets/portfolio/coming_soon.jpg',
+    title: 'Simple Android App',
+    img: 'assets/portfolio/android.png',
+  },
+  {
+    id: 2,
+    title: 'Flutter Word App',
+    img: 'assets/portfolio/flutterwordpairfour.png',
+  },
+  {
+    id: 3,
+    title: 'Flutter one',
+    img: 'assets/portfolio/flutter_profile_one.png',
+  },
+  {
+    id: 4,
+    title: 'Flutter Two',
+    img: 'assets/portfolio/flutter_profile_two.png',
   },
 ]
 
