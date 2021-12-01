@@ -1,15 +1,15 @@
 .intro {
-  background-color: lightgreen;
+  background-color: lightpink;
   //background-color: white;
   display: flex;
 
   .left {
-    flex: 0.5;
+    flex: 0.6;
     overflow: hidden;
 
     .imgContainer {
-      width: 900px;
-      height: 900px;
+      width: 1000px;
+      height: 1000px;
       border-radius: 50%;
       display: flex;
       align-items: flex-start;
@@ -23,7 +23,7 @@
   }
 
   .right {
-    flex: 0.5;
+    flex: 0.4;
     position: relative;
 
     .wrapper {
@@ -49,7 +49,7 @@
           font-size: inherit;
           color: crimson;
         }
- 
+
         .ityped-cursor {
           animation: blink 1s infinite;
         }
