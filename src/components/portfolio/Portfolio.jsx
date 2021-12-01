@@ -75,7 +75,6 @@ export default function Portfolio() {
     }
   }, [selected])
 
-  
   return (
     <div className='portfolio' id='portfolio'>
       <h1>Portfolio</h1>
@@ -92,7 +91,6 @@ export default function Portfolio() {
 
       <div className='container'>
         {data.map((d) => {
-          console.log(d)
           return (
             <div className='item' key={d.id}>
               <img src={d.img} alt={d.title} />
