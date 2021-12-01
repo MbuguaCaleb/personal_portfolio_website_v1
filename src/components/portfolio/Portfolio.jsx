@@ -94,7 +94,11 @@ export default function Portfolio() {
         {data.map((d) => {
           return (
             <div className='item' key={d.id}>
-              <img src={d.img} alt={d.title} />
+              <img
+                src={d.img}
+                alt={d.title}
+                onClick={() => window.location.replace(`${d.url}`)}
+              />
               <h3>{d.title}</h3>
             </div>
           )
