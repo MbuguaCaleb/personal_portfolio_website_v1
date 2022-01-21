@@ -1,11 +1,16 @@
 export const featuredPortfolio = [
   {
     id: 1,
+    title: 'Mern Ecommerce',
+    img: 'assets/portfolio/react_ecommerce.png',
+    url: 'https://calebshop-mern-ecommerce.herokuapp.com/',
+  },
+  {
+    id: 2,
     title: 'My  Church Website',
     img: 'assets/portfolio/churchwebsite.png',
     url: 'https://kagnaivasha-website-bf389c.netlify.app/',
   },
-
   {
     id: 3,
     title: 'PluralSite Clone',
@@ -87,6 +92,18 @@ export const frontEndPortfolio = [
     title: 'React Js Chat App',
     img: 'assets/portfolio/react_chat_app_one.png',
     url: 'https://5f7b62b6d5653923fc03e4a6--wizardly-rosalind-b53985.netlify.app/',
+  },
+  {
+    id: 4,
+    title: 'Mern Ecommerce',
+    img: 'assets/portfolio/react_ecommerce_two.png',
+    url: 'https://calebshop-mern-ecommerce.herokuapp.com/',
+  },
+  {
+    id: 5,
+    title: 'ContextAPI',
+    img: 'assets/portfolio/contextAPI.png',
+    url: ' https://mbugua-caleb-azenia-react-interview-exercise.netlify.app/',
   },
 ]
 
